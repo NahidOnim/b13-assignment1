@@ -10,19 +10,17 @@
   font-optical-sizing: auto;
 }
 
-/* nav{
-    width: 100%;
-    height: 92px;
-} */
 #nav-bar{
     padding: 16px 120px;
 }
+
 .navbar{
     display: flex;
     gap: 346px;
     justify-content: center;
     align-items: center;
 }
+
 .nav-navigation ul{
     display: flex;
     gap: 32px;
@@ -30,6 +28,7 @@
     list-style: none;
 
 }
+
 .nav-navigation ul li{
     font-size: 16px;
     font-weight: 500;
@@ -51,6 +50,7 @@
     cursor: pointer;
     transition: 0.4s;
 }
+
 .btn2{
     color: #ffffff;
     background-color: transparent;
@@ -63,9 +63,11 @@
     cursor: pointer;
     transition: 0.4s;
 }
+
 .btn:hover{
     background-color: rgb(0, 81, 255);
 }
+
 .btn2:hover:hover{
     background-color: rgb(0, 81, 255);
 }
@@ -94,6 +96,7 @@
     gap: 6px;
     align-items: center;
 }
+
 #banner .banner-heading h1{
     font-size: 72px;
     font-weight: bold;
@@ -101,6 +104,7 @@
     color: #ffffff;
     margin: 0 295px;
 }
+
 #banner .banner-heading .next-line{
     font-size: 72px;
     font-weight: bold;
@@ -110,12 +114,14 @@
     margin-bottom: 16px;
     justify-content: center;
 }
+
 #banner .banner-p2{
     font-size: 18;
     line-height: 24px;
     color:#ffffff;
     margin-bottom: 32px;
 }
+
 #banner .banner-button{
     display: flex;
     gap: 16px;
@@ -123,8 +129,6 @@
 
 #note-section{
     padding: 0 120px;
-    /* display: flex; */
-    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
     margin-bottom: 120px;
@@ -154,6 +158,7 @@
     justify-content: center;
     
 }
+
 .card-container .card{
     width: 322px;
     height: 300px;
@@ -192,6 +197,7 @@
     justify-content: center;
     gap: 60px;
 }
+
 #solution-container .sol-info{
     padding: 102px 0 102px 60px;
 }
@@ -202,6 +208,7 @@
     color: #30B868;
     margin-bottom: 16px;
 }
+
 #solution-container .sol-info h1{
     font-size: 48px;
     font-weight: bold;
@@ -231,21 +238,22 @@
     flex-direction: column;
     gap: 16px;
 }
+
 #think-section{
     padding: 0 120px 120px 120px;
 }
+
 #think-section .think-box{
     padding: 80px 40px;
     background-color: #F7F6F2;
     display: flex;
     flex-direction: column;
 }
+
 #think-section .think-box .sec-1{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* width: 100%;
-    max-width: 1280px; */
 }
 
 #think-section .think-box .sec-1 h1{
@@ -269,16 +277,19 @@
     justify-content: center;
     align-items: center;
 }
+
 #think-section .think-box .sec-2 button{
     padding: 12px 16px;
     max-width: 194px;
     margin-bottom: 16px;
 }
+
 #think-section .think-box .sec-2 .p2{
     font-size: 16px;
     color: #627382;
     text-align: center;
 }
+
 footer{
     padding: 120px 120px 30px 120px;
     display: flex;
@@ -287,6 +298,7 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
 footer .upper-footer{
     display: flex;
     flex-direction: row;
