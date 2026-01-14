@@ -160,6 +160,7 @@
 }
 
 .card-container .card{
+    background-color: #FAFAFA;
     width: 322px;
     height: 300px;
     padding: 24px;
@@ -296,7 +297,15 @@ footer{
     flex-direction: column;
     background-color: #001931;
     justify-content: center;
-    align-items: center;
+}
+
+footer hr{
+    align-self: stretch;
+    width: 100%;
+    max-width: 1360px;
+    border: none;
+    height: 1px;
+    background-color: #e5e7eb28;
 }
 
 footer .upper-footer{
@@ -325,9 +334,11 @@ footer .upper-footer .footer-links .footer-icons{
 }
 
 footer .lower-footer p{
-    padding-top: 30px;
-    text-align: center;
     font-size: 16px;
-    color: #FAFAFA;
+    text-align: center;
+    color: #fafafa;
+    padding-top: 30px;
 }
+
+    
 
