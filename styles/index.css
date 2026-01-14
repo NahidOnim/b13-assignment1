@@ -16,9 +16,9 @@
 } */
 
 #navbar{
+    padding: 16px 120px;
     display: flex;
     width: 1600px;
-    padding: 16px 120px;
     gap: 346px;
     align-items: center;
 }
@@ -231,15 +231,13 @@
     gap: 16px;
 }
 #think-section{
-    padding: 0 200px 120px 200px;
+    padding: 0 120px 120px 120px;
 }
 #think-section .think-box{
-    /* width: 100%;
-    max-width: 1360px; */
     padding: 80px 40px;
     background-color: #F7F6F2;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
 }
 #think-section .think-box .sec-1{
     display: flex;
@@ -268,9 +266,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 #think-section .think-box .sec-2 button{
-    margin: 0 583px 16px 583px;
+    padding: 12px 16px;
+    max-width: 194px;
+    margin-bottom: 16px;
 }
 #think-section .think-box .sec-2 .p2{
     font-size: 16px;
@@ -282,16 +283,38 @@ footer{
     display: flex;
     flex-direction: column;
     background-color: #001931;
-    height: 384px;
-}
-.upper-footer{
-    display: flex;
-    margin: 0 auto;
-    gap: 1001px;
     justify-content: center;
-    
+    align-items: center;
+}
+footer .upper-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 790px;
+    margin-bottom: 80px;
+}
+footer .upper-footer .footer-logo{
+    margin-right: 211px;
+}
+
+footer .upper-footer .footer-links p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0 107px 16px 0;
 
 }
 
 
+footer .upper-footer .footer-links .footer-icons{
+    display: flex;
+    gap: 16px;
+    margin: 0 128px 0 0;
+}
+
+footer .lower-footer p{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+    color: #FAFAFA;
+}
 
